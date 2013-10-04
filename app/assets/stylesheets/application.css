@@ -11,3 +11,26 @@
  *= require_self
  *= require_tree .
  */
+
+.hidden {
+  display: none;
+}
+
+li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+li.first {
+  padding-top: 10px;
+}
+
+li.last {
+  padding-bottom: 10px;
+}
+
+ul.navMenu {
+  border: solid black 1px;
+  border-radius: 4px;
+  width: 100px;
+}

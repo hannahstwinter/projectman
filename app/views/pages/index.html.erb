@@ -1,0 +1,12 @@
+Hello World!<br/>
+<div class='uiToggle menuOut'>
+  Menu
+  <ul class='navMenu hidden'>
+    <% if !current_user %>
+      <li role='menuitem'><%= link_to 'Signup', signup_path %></li>
+      <li role='menuitem'><%= link_to 'Signin', signin_path %></li>
+    <% else %>
+      <li role='menuitem'><%= link_to 'Signout', signout_path %></li>
+    <% end %>
+  </ul>
+</div>

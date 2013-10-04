@@ -20,14 +20,14 @@ group :assets do
 end
 
 group :development do
-  gem "better_errors"
+  gem 'better_errors'
 end
 
 gem 'binding_of_caller'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'
